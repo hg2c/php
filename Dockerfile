@@ -1,4 +1,4 @@
-FROM php:5-fpm
+FROM php:5-apache
 
 RUN apt-get update && apt-get install -y \
     php5-apcu php5-curl php5-mcrypt php5-mysqlnd php5-imagick php5-redis \
