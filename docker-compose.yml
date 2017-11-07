@@ -1,0 +1,8 @@
+version: '2'
+services:
+  php:
+    image: hg2c/php:5-dev
+    ports:
+      - 80
+    volumes:
+      - ./:/var/www/html/
